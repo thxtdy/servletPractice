@@ -20,6 +20,7 @@ import java.io.PrintWriter;
 @WebServlet(urlPatterns = "/friday", loadOnStartup = 1)
 public class HelloServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
+	
       
 	// 생성자
     public HelloServlet() {
